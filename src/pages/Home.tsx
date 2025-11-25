@@ -23,43 +23,75 @@ const Home = () => {
 
       {/* SKILLS SECTION */}
       <section className="py-10 bg-card/50">
-        <div className="container mx-auto px-4">
+  <div className="container mx-auto px-4">
 
-          <AnimatedSection>
-            <h2 className="text-4xl font-bold text-center mb-12">
-              <span className="gradient-text">Technical Skills</span>
-            </h2>
-          </AnimatedSection>
+    <AnimatedSection>
+      <h2 className="text-4xl font-bold text-center mb-12">
+        <span className="gradient-text">Technical Skills</span>
+      </h2>
+    </AnimatedSection>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
 
-            <div className="bg-background p-8 rounded-xl border hover:border-primary transition-all h-48 flex flex-col items-start">
-              <img src={AutoCAD} className="w-12 mb-4" />
-              <h3 className="text-xl font-bold">AutoCAD</h3>
-              <p className="text-muted-foreground text-sm">Precise 2D & 3D drawings.</p>
-            </div>
-
-            <div className="bg-background p-8 rounded-xl border hover:border-primary transition-all h-48 flex flex-col items-start">
-              <img src={Enscape} className="w-12 mb-4" />
-              <h3 className="text-xl font-bold">Enscape</h3>
-              <p className="text-muted-foreground text-sm">Real-time walkthroughs.</p>
-            </div>
-
-            <div className="bg-background p-8 rounded-xl border hover:border-primary transition-all h-48 flex flex-col items-start">
-              <img src={VRay} className="w-12 mb-4" />
-              <h3 className="text-xl font-bold">V-Ray</h3>
-              <p className="text-muted-foreground text-sm">Photorealistic renders.</p>
-            </div>
-
-            <div className="bg-background p-8 rounded-xl border hover:border-primary transition-all h-48 flex flex-col items-start">
-              <img src={Sketchup} className="w-12 mb-4" />
-              <h3 className="text-xl font-bold">SketchUp</h3>
-              <p className="text-muted-foreground text-sm">Fast 3D concept models.</p>
-            </div>
-
-          </div>
+      {/* AutoCAD */}
+      <a
+        href="https://www.autodesk.in/products/autocad"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block"
+      >
+        <div className="bg-background p-8 rounded-xl border hover:border-primary transition-all h-48 flex flex-col items-start cursor-pointer">
+          <img src={AutoCAD} className="w-12 mb-4" />
+          <h3 className="text-xl font-bold">AutoCAD</h3>
+          <p className="text-muted-foreground text-sm">Precise 2D drawings</p>
         </div>
-      </section>
+      </a>
+
+      {/* Enscape */}
+      <a
+        href="https://enscape3d.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block"
+      >
+        <div className="bg-background p-8 rounded-xl border hover:border-primary transition-all h-48 flex flex-col items-start cursor-pointer">
+          <img src={Enscape} className="w-12 mb-4" />
+          <h3 className="text-xl font-bold">Enscape</h3>
+          <p className="text-muted-foreground text-sm">Real-time walkthroughs.</p>
+        </div>
+      </a>
+
+      {/* V-Ray */}
+      <a
+        href="https://www.chaos.com/vray"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block"
+      >
+        <div className="bg-background p-8 rounded-xl border hover:border-primary transition-all h-48 flex flex-col items-start cursor-pointer">
+          <img src={VRay} className="w-12 mb-4" />
+          <h3 className="text-xl font-bold">V-Ray</h3>
+          <p className="text-muted-foreground text-sm">Photorealistic renders.</p>
+        </div>
+      </a>
+
+      {/* SketchUp */}
+      <a
+        href="https://www.sketchup.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block"
+      >
+        <div className="bg-background p-8 rounded-xl border hover:border-primary transition-all h-48 flex flex-col items-start cursor-pointer">
+          <img src={Sketchup} className="w-12 mb-4" />
+          <h3 className="text-xl font-bold">SketchUp</h3>
+          <p className="text-muted-foreground text-sm">Fast 3D concept models.</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
 
       {/* FEATURED PROJECTS */}
       <section className="py-16">

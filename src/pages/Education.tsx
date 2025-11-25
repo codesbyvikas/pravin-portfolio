@@ -20,7 +20,7 @@ const Education = () => {
       institution: "Mumbai Kala-Mahavidyalay",
       year: "2022 - 2023",
       description:
-        "Completed a comprehensive foundation program covering essential concepts of drawing, painting, color theory, composition, and visual design. Gained hands-on experience with various artistic mediums and developed a strong understanding of creative processes, observational skills, and design fundamentals.",
+      "Completed a foundation program in drawing, painting, color theory, composition, and visual design, gaining hands-on experience with various mediums and strengthening core creative and observational skills.",
       achievements: [
         "Won first prize in Object Rendering."
       ],
@@ -57,7 +57,7 @@ const Education = () => {
                   {/* Content */}
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-2">
-                      <h2 className="text-xl font-semibold">{item.degree}</h2>
+                      <h2 className="text-xl font-semibold">{item.degree  || item.Diploma}</h2>
                       <span className="text-sm text-primary font-medium">{item.year}</span>
                     </div>
 

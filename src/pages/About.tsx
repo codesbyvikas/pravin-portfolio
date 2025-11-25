@@ -5,6 +5,9 @@ import { Button } from "@/components/ui/button";
 import { Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
+// PDF Import
+import resumePDF from "@/assets/profile/pravin_mourya_resume.pdf";
+
 const About = () => {
   const titles = ["Interior Designer", "3D Visual Artist", "Visualization Artist"];
 
@@ -46,9 +49,13 @@ const About = () => {
 
               {/* BUTTONS */}
               <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="rounded-full px-8">
-                  Download Resume
-                </Button>
+
+                {/* Download Resume */}
+                <a href={resumePDF} download>
+                  <Button size="lg" className="rounded-full px-8">
+                    Download Resume
+                  </Button>
+                </a>
 
                 <Link to="/projects">
                   <Button
@@ -61,11 +68,21 @@ const About = () => {
                 </Link>
               </div>
 
-              {/* CONTACT ICONS */}
-              <div className="flex items-center gap-6 text-muted-foreground">
-                <a href="mailto:v72948724@gmail.com" className="hover:text-primary transition">
-                  <Mail size={22} />
-                </a>
+              {/* SEND EMAIL BUTTON */}
+              <div className="pt-2">
+               <a
+                      href="https://mail.google.com/mail/?view=cm&to=v72948724@gmail.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button
+                        size="lg"
+                        className="rounded-full px-8 flex items-center gap-2"
+                      >
+                        <Mail size={20} />
+                        Send Email
+                      </Button>
+                    </a>
               </div>
 
             </div>
