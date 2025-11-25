@@ -5,27 +5,24 @@ import { GraduationCap } from "lucide-react";
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Interior Design",
+      degree: "Bachelor of Vocation in Interior Design",
       institution: "L.S Raheja School of Architecture",
       year: "2023 - 2025",
       description:
-        "Specialized in sustainable design and modern digital visualization techniques.",
+        "Specialized in Residential and Commercial design and modern digital visualization techniques.",
       achievements: [
-        "Dean's List all semesters",
-        "Best Design Project Award 2022",
-        "Published thesis on Modern Interior Spaces",
+        "My Design(Gaming Arcade )listed in 2025 workbook.",
+        "Runner up-Helping member of SIDCA",
       ],
     },
     {
-      degree: "Advanced 3D Visualization Certificate",
-      institution: "Digital Arts Institute",
+      Diploma: "Diploma in Foundation of Art",
+      institution: "Mumbai Kala-Mahavidyalay",
       year: "2022 - 2023",
       description:
-        "Hands-on certification in Blender, 3ds Max, and photorealistic rendering.",
+        "Completed a comprehensive foundation program covering essential concepts of drawing, painting, color theory, composition, and visual design. Gained hands-on experience with various artistic mediums and developed a strong understanding of creative processes, observational skills, and design fundamentals.",
       achievements: [
-        "Mastered advanced lighting techniques",
-        "Completed 50+ professional renders",
-        "Certified in V-Ray rendering",
+        "Won first prize in Object Rendering."
       ],
     },
   ];

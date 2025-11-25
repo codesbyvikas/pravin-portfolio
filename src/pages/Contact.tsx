@@ -7,8 +7,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: "designer@example.com",
-      link: "mailto:designer@example.com",
+      content: "v72948724@gmail.com",
+      link: "mailto:v72948724@gmail.com",
     },
     {
       icon: Phone,

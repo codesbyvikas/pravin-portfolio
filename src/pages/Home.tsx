@@ -39,7 +39,7 @@ const Home = () => {
 
             <AnimatedSection delay={0.3}>
               <div className="bg-background p-8 rounded-xl border hover:border-secondary transition-all">
-                <img src="assets/software/esxape.png" className="w-12 mb-4" />
+                <img src="assets/software/enscape.png" className="w-12 mb-4" />
                 <h3 className="text-xl font-bold mb-2">Escape</h3>
                 <p className="text-muted-foreground text-sm">Real-time walkthroughs.</p>
               </div>

@@ -2,16 +2,16 @@ const projects = [
   {
     id: "gaming-arcade",
     title: "Gaming Arcade",
-    description: "A futuristic gaming arcade featuring neon aesthetics and immersive lighting.",
-    technologies: ["Blender", "AutoCAD", "V-Ray", "Enscape"],
+    description: "This project showcases a fully immersive gaming arcade with neon lighting, dynamic 3D props, and futuristic interior concepts. Designed for visual impact and user experience.",
+    technologies: ["Sketchup", "AutoCAD", "V-Ray", "Enscape"],
     category: "Entertainment",
     year: "2024",
 
     thumbnail:
-      "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764078375/projects/gaming-arcade/zppd6bpun4mkstxr0qsm.jpg",
+      "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764078375/projects/gaming-arcade/zppd6bpun4mkstxr0qsm.jpg", 
 
     longDescription:
-      "This project showcases a fully immersive gaming arcade with neon lighting, dynamic 3D props, and futuristic interior concepts. Designed for visual impact and user experience.",
+      "A cutting-edge gaming space designed with a vibrant neon color palette, dynamic LED strips, and holographic lighting effects that transform the environment into an immersive, sci-fi experience. The arcade blends sleek metallic textures with glowing accents, creating a visually striking atmosphere. Interactive light panels, illuminated pathways, and ambient cyberpunk-inspired hues enhance the spatial depth and energy of the room. The overall design captures the essence of next-gen entertainment—bold, electrifying, and fully immersive, making every gaming session feel like a journey into the future.",
 
     model:null, // add Cloudinary .glb if you upload later
 
@@ -61,7 +61,7 @@ const projects = [
   thumbnail: "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764080695/projects/gaming-lawyer%20office/phpqsng1ls7bgwifaf9z.jpg",
 
   longDescription:
-    "This project presents a high-end lawyer office interior designed with a strong focus on sophistication and professionalism. The environment uses rich wooden textures, premium leather seating, warm ambient lighting, and organized storage space. The office includes a private sitting area, executive desk, and document storage wall.",
+    "This project features a high-end lawyer’s office designed to reflect sophistication, authority, and professionalism. Rich wooden finishes, premium leather seating, and warm ambient lighting create a refined and inviting atmosphere. The space includes a spacious executive desk, a comfortable private seating area for client meetings, and a well-organized document storage wall. Subtle metallic accents and balanced lighting enhance the room’s elegance, resulting in a dignified and polished legal workspace.",
 
   model: null, // no 3D model
 

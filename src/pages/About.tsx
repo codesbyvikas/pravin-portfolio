@@ -2,15 +2,11 @@ import AnimatedSection from "@/components/AnimatedSection";
 import { Card } from "@/components/ui/card";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const About = () => {
-  const titles = [
-    "Interior Designer",
-    "3D Modeler",
-    "Visualization Artist",
-    "Animator",
-  ];
+  const titles = ["Interior Designer", "3D Visual Artist", "Visualization Artist"];
 
   const [index, setIndex] = useState(0);
 
@@ -22,7 +18,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="py-16 relative">   {/* FIXED — removed min-h-screen */}
+    <div className="py-16 relative">
 
       {/* Background Glow */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-secondary/10 opacity-40" />
@@ -36,7 +32,7 @@ const About = () => {
             <div className="space-y-6 max-w-xl">
 
               <h2 className="text-5xl md:text-6xl font-bold leading-[1.1] whitespace-nowrap">
-                Hi, I'm <span className="gradient-text">Pravin Mourya</span>.
+                <span className="gradient-text">Pravin Mourya</span>
               </h2>
 
               <h3 className="text-3xl md:text-4xl font-semibold text-primary transition-all duration-500 drop-shadow-lg">
@@ -44,28 +40,31 @@ const About = () => {
               </h3>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I transform interior concepts into photorealistic 3D experiences using Blender,
-                AutoCAD, SketchUp, and V-Ray. My designs combine creativity and technical precision.
+                I transform interior concepts into photorealistic 3D experiences using AutoCAD,
+                SketchUp, and V-Ray. My designs combine creativity and technical precision.
               </p>
 
+              {/* BUTTONS */}
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="rounded-full px-8">
                   Download Resume
                 </Button>
-                <Button size="lg" variant="outline" className="rounded-full px-8">
-                  View Projects
-                </Button>
+
+                <Link to="/projects">
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="rounded-full px-8"
+                  >
+                    View Projects
+                  </Button>
+                </Link>
               </div>
 
+              {/* CONTACT ICONS */}
               <div className="flex items-center gap-6 text-muted-foreground">
-                <a href="#" className="hover:text-primary transition">
+                <a href="mailto:v72948724@gmail.com" className="hover:text-primary transition">
                   <Mail size={22} />
-                </a>
-                <a href="#" className="hover:text-primary transition">
-                  <Github size={22} />
-                </a>
-                <a href="#" className="hover:text-primary transition">
-                  <Linkedin size={22} />
                 </a>
               </div>
 
