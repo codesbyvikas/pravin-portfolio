@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AnimatedSection from "@/components/AnimatedSection";
 import { Badge } from "@/components/ui/badge";
 import projects from "@/data/projects";
-import MediaModal from "@/components/MediaModal"
+import MediaModal from "@/components/MediaModal";
 import Model3DViewer from "@/components/Model3DViewer";
 
 const ProjectDetails = () => {
@@ -16,6 +16,11 @@ const ProjectDetails = () => {
     src: null,
   });
 
+  // ⭐ Scroll to top when page loads
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   if (!project) {
     return <p className="text-center text-red-500 p-10">Project not found.</p>;
   }
@@ -25,25 +30,20 @@ const ProjectDetails = () => {
 
       {/* HEADER */}
       <AnimatedSection>
-        <h1 className="text-5xl font-bold gradient-text">{project.title}</h1>
-
+        <h1 className="text-5xl font-bold gradient-text py-2">{project.title}</h1>
         <Badge className="text-lg px-4 py-1 mt-3">{project.category}</Badge>
-
         <p className="max-w-3xl mt-6 text-lg text-muted-foreground">
-          {project.description}
+          {project.longDescription}
         </p>
       </AnimatedSection>
 
       {/* TECHNOLOGIES */}
-      <AnimatedSection delay={0.2}>
+      <AnimatedSection>
         <h2 className="text-2xl font-semibold mt-12 mb-4">Technologies Used</h2>
 
         <div className="flex flex-wrap gap-3">
           {project.technologies.map((t, i) => (
-            <span
-              key={i}
-              className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm"
-            >
+            <span key={i} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
               {t}
             </span>
           ))}
@@ -52,14 +52,14 @@ const ProjectDetails = () => {
 
       {/* 3D MODEL VIEWER */}
       {project.model && (
-        <AnimatedSection delay={0.3}>
+        <AnimatedSection>
           <h2 className="text-2xl font-semibold mt-12 mb-4">3D Model</h2>
           <Model3DViewer modelUrl={project.model} />
         </AnimatedSection>
       )}
 
       {/* IMAGE GALLERY */}
-      <AnimatedSection delay={0.4}>
+      <AnimatedSection>
         <h2 className="text-2xl font-semibold mt-12 mb-4">Gallery</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -78,7 +78,7 @@ const ProjectDetails = () => {
 
       {/* VIDEOS */}
       {project.videos.length > 0 && (
-        <AnimatedSection delay={0.5}>
+        <AnimatedSection>
           <h2 className="text-2xl font-semibold mt-12 mb-4">Videos</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -97,12 +97,10 @@ const ProjectDetails = () => {
         </AnimatedSection>
       )}
 
-      {/* MODAL (LIGHTBOX VIEWER) */}
+      {/* MODAL */}
       <MediaModal
         open={modal.open}
-        onClose={() =>
-          setModal({ open: false, type: null, src: null })
-        }
+        onClose={() => setModal({ open: false, type: null, src: null })}
         type={modal.type}
         src={modal.src}
       />
