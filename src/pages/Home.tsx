@@ -31,7 +31,7 @@ const Home = () => {
 
             <AnimatedSection delay={0.2}>
               <div className="bg-background p-8 rounded-xl border hover:border-primary transition-all">
-                <img src="public/assets/software/autocad.png" className="w-12 mb-4" />
+                <img src="assets/software/autocad.png" className="w-12 mb-4" />
                 <h3 className="text-xl font-bold mb-2">AutoCAD</h3>
                 <p className="text-muted-foreground text-sm">Precise 2D & 3D drawings.</p>
               </div>
@@ -39,7 +39,7 @@ const Home = () => {
 
             <AnimatedSection delay={0.3}>
               <div className="bg-background p-8 rounded-xl border hover:border-secondary transition-all">
-                <img src="public/assets/software/esxape.png" className="w-12 mb-4" />
+                <img src="assets/software/esxape.png" className="w-12 mb-4" />
                 <h3 className="text-xl font-bold mb-2">Escape</h3>
                 <p className="text-muted-foreground text-sm">Real-time walkthroughs.</p>
               </div>
@@ -47,7 +47,7 @@ const Home = () => {
 
             <AnimatedSection delay={0.4}>
               <div className="bg-background p-8 rounded-xl border hover:border-primary transition-all">
-                <img src="public/assets/software/vray.avif" className="w-12 mb-4" />
+                <img src="assets/software/vray.avif" className="w-12 mb-4" />
                 <h3 className="text-xl font-bold mb-2">V-Ray</h3>
                 <p className="text-muted-foreground text-sm">Photorealistic renders.</p>
               </div>
@@ -55,7 +55,7 @@ const Home = () => {
 
             <AnimatedSection delay={0.5}>
               <div className="bg-background p-8 rounded-xl border hover:border-primary transition-all">
-                <img src="public/assets/software/sketch.png" className="w-12 mb-4" />
+                <img src="assets/software/sketch.png" className="w-12 mb-4" />
                 <h3 className="text-xl font-bold mb-2">SketchUp</h3>
                 <p className="text-muted-foreground text-sm">Fast 3D concept models.</p>
               </div>
