@@ -7,7 +7,7 @@ const Education = () => {
     {
       degree: "Bachelor of Interior Design",
       institution: "L.S Raheja School of Architecture",
-      year: "2013 - 2025",
+      year: "2023 - 2025",
       description:
         "Specialized in sustainable design and modern digital visualization techniques.",
       achievements: [
