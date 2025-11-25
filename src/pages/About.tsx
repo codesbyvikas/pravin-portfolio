@@ -77,7 +77,7 @@ const About = () => {
             <div className="flex justify-center lg:justify-end">
               <Card className="rounded-3xl p-[6px] bg-gradient-to-br from-primary/40 via-background to-secondary/40 shadow-2xl hover:shadow-primary/40 transition-shadow">
                 <img
-                  src="public/assets/profile/pravin.jpg"
+                  src="https://res.cloudinary.com/dkzrfhatc/image/upload/v1764082170/projects/gaming-lawyer%20office/oafqjrtq5ohhim8y3jjb.jpg"
                   alt="Pravin Mourya"
                   className="w-[380px] h-[420px] object-cover rounded-2xl"
                 />
