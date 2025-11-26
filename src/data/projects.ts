@@ -103,7 +103,7 @@ const projects = [
     id: "working-drawings",
     title: "Working Drawings",
     description:
-      "These are working drawings I have made throught the course.",
+      "These are working drawings I have made throughout the course.",
     technologies: ["AutoCAD"],
     category: "Resindetial",
     year: "2024",
