@@ -97,7 +97,39 @@ const projects = [
     ].map(optimize),
 
     videos: [],
-  }
+  },
+
+{
+    id: "working-drawings",
+    title: "Working Drawings",
+    description:
+      "These are working drawings I have made throught the course.",
+    technologies: ["AutoCAD"],
+    category: "Resindetial",
+    year: "2024",
+
+    thumbnail: optimize(
+      "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764166017/projects/working-drawings/ids8lsoxrme5eytb31ze.jpg"
+    ),
+
+    longDescription:
+      "These are working drawings I have made throught the course.",
+
+    model: null,
+
+    images: [
+      "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764166014/projects/working-drawings/nerrimkpufjhcldjk7jc.jpg",
+      "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764166016/projects/working-drawings/ujkgbx1vdnk2hx9mrwf1.jpg",
+      "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764166017/projects/working-drawings/ids8lsoxrme5eytb31ze.jpg",
+      "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764166019/projects/working-drawings/dvtaowxd3l4jrqucv96d.jpg",
+      "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764166020/projects/working-drawings/ta2cbnqvtlvrjp9lho7d.jpg",
+      "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764166023/projects/working-drawings/orvgkm0ncuswsbwcfmcb.jpg",
+      "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764166025/projects/working-drawings/alg7gubg4lhxx3tg3cob.jpg",
+      "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764166029/projects/working-drawings/hzdsg3laovgdi0kygeqw.jpg"
+    ].map(optimize),
+
+    videos: [],
+  },
 ];
 
 export default projects;
