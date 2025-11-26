@@ -113,7 +113,7 @@ const projects = [
     ),
 
     longDescription:
-      "These are working drawings I have made throught the course.",
+      "These are working drawings I have made throughout the course.",
 
     model: null,
 
