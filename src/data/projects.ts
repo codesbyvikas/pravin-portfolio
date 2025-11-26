@@ -16,7 +16,7 @@ const projects = [
     ),
 
     longDescription:
-      "A cutting-edge gaming space with neon palettes, holographic lighting, illuminated pathways, and cyberpunk-inspired ambience.",
+      "A cutting-edge gaming space designed with an unmistakable cyberpunk pulse, bathed in vibrant neon palettes that shift dynamically across the room. Holographic lighting elements hover above the gaming zones, casting futuristic reflections onto sleek metallic surfaces. The floor incorporates illuminated pathways that guide users through the environment, creating a sense of movement and digital flow. Walls feature layered LED panels, subtle glitch effects, and interactive screens that react to player presence. The ambience is electric yet controlled, blending saturated colors with deep shadows to evoke the atmosphere of a high-tech futuristic city. Every corner feels alive, immersive, and engineered for peak gaming performance while offering an unforgettable visual experience.",
 
     model: null,
 
