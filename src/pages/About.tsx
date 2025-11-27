@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import resumePDF from "@/assets/profile/pravin_mourya_resume.pdf";
 
 const About = () => {
-  const titles = ["Interior Designer", "3D Visual Artist", "Visualization Artist"];
+  const titles = ["an Interior Designer", "a 3D Visual Artist", "a Visualization Artist"];
 
   const [index, setIndex] = useState(0);
 
@@ -39,7 +39,7 @@ const About = () => {
               </h2>
 
               <h3 className="text-3xl md:text-4xl font-semibold text-primary transition-all duration-500 drop-shadow-lg">
-                I'm a {titles[index]}
+                I'm {titles[index]}
               </h3>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
