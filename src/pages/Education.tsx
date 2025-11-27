@@ -9,7 +9,7 @@ const Education = () => {
       institution: "L.S Raheja School of Architecture",
       year: "2023 - 2025",
       description:
-        "Specialized in Residential and Commercial design and modern digital visualization techniques.",
+        "In my Interior Design course, I learned the fundamentals of Residential and Commercial space design, including space planning, material selection, lighting concepts, and furniture layout. I also gained hands-on experience with modern digital visualization tools for creating 3D models, renders, and working drawings",
       achievements: [
         "My Design(Gaming Arcade )listed in 2025 workbook.",
         "Runner up-Helping member of SIDCA",
