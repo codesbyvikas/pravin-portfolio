@@ -213,7 +213,17 @@ const projects = [
   "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764243566/projects/working-drawings/xm9oskffvhkfcxwkdoti.png",
   "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764243568/projects/working-drawings/kpqqrywsw7hk5ckxxcqv.png",
   "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764243573/projects/working-drawings/eicigydyqvxrj0xrl1w5.png",
-  "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764243575/projects/working-drawings/eopnvonoaaluk5n5rv8i.png"
+  "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764243575/projects/working-drawings/eopnvonoaaluk5n5rv8i.png",
+
+  "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764334875/projects/3dmodels/nc1p7ixpxajv1vegdnko.png",
+  "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764334879/projects/3dmodels/wcz74oad8v9z95bayxus.png",
+  "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764334884/projects/3dmodels/vy6nrzjtzlsserh23rwz.png",
+  "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764334887/projects/3dmodels/n4nxjyfxiennqgr49lmg.png",
+  "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764334891/projects/3dmodels/qbmm1n2xkrwhofzhtngj.png",
+  "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764334895/projects/3dmodels/jk56ldr7ahur7lm3fng2.png",
+  "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764334899/projects/3dmodels/k7xovwqumzvxeymxggc4.png",
+  "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764334904/projects/3dmodels/xwsigd0jqfvpmjuyiigv.png",
+  "https://res.cloudinary.com/dkzrfhatc/image/upload/v1764334907/projects/3dmodels/beihgrglvchtgatueuig.png"
     ].map(optimize),
 
     videos: [],
